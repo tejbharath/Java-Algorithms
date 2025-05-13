@@ -1,7 +1,9 @@
 package com.company;
 
 import com.company.SlidingWindow.BinaryStringFlipOnceLongestPattern;
+import com.company.SlidingWindow.LargestSumofSubArrayWithFixedSize;
 import com.company.SlidingWindow.LengthOfLongestSubArrayMatchingSum;
+import com.company.SlidingWindow.NumberOfSubArraysInArray;
 import com.company.TwoPointers.CombineTwoSortedArray;
 import com.company.TwoPointers.FindSubSequenceString;
 import com.company.TwoPointers.IsTargetSortedIntegerArray;
@@ -36,7 +38,13 @@ public class Main {
 //        LengthOfLongestSubArrayMatchingSum l = new LengthOfLongestSubArrayMatchingSum();
 //        System.out.println(l.findLength(new int[] {3,1,2,7,4,2,1,1,5}, 8));
 
-        BinaryStringFlipOnceLongestPattern b = new BinaryStringFlipOnceLongestPattern();
-        System.out.println(b.findLength("11001011"));
+//        BinaryStringFlipOnceLongestPattern b = new BinaryStringFlipOnceLongestPattern();
+//        System.out.println(b.findLength("11001011"));
+
+//        NumberOfSubArraysInArray n = new NumberOfSubArraysInArray();
+//        System.out.println(n.numSubarrayProductLessThanK(new int[] {10, 5, 2, 6}, 100));
+
+        LargestSumofSubArrayWithFixedSize l = new LargestSumofSubArrayWithFixedSize();
+        System.out.println(l.findBestSubarray(new int[] {3, -1, 4, 12, -8, 5, 6}, 4));
     }
 }
