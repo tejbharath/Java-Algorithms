@@ -1,5 +1,8 @@
 package com.company;
 
+import com.company.PrefixSum.KRadiusSubArrayAverages;
+import com.company.PrefixSum.MinStartValueStepByStepSum;
+import com.company.PrefixSum.QueriesOnIntegerArray;
 import com.company.SlidingWindow.BinaryStringFlipOnceLongestPattern;
 import com.company.SlidingWindow.LargestSumofSubArrayWithFixedSize;
 import com.company.SlidingWindow.LengthOfLongestSubArrayMatchingSum;
@@ -44,7 +47,23 @@ public class Main {
 //        NumberOfSubArraysInArray n = new NumberOfSubArraysInArray();
 //        System.out.println(n.numSubarrayProductLessThanK(new int[] {10, 5, 2, 6}, 100));
 
-        LargestSumofSubArrayWithFixedSize l = new LargestSumofSubArrayWithFixedSize();
-        System.out.println(l.findBestSubarray(new int[] {3, -1, 4, 12, -8, 5, 6}, 4));
+//        LargestSumofSubArrayWithFixedSize l = new LargestSumofSubArrayWithFixedSize();
+//        System.out.println(l.findBestSubarray(new int[] {3, -1, 4, 12, -8, 5, 6}, 4));
+
+//        QueriesOnIntegerArray q = new QueriesOnIntegerArray();
+//        boolean[] res = q.answerQueries(new int[] {1, 6, 3, 2, 7, 2}, new int[][] {{0,3}, {2, 5}, {2, 4}}, 13);
+//        for (boolean re : res) {
+//            System.out.println(re);
+//        }
+
+//        MinStartValueStepByStepSum m = new MinStartValueStepByStepSum();
+//        System.out.println(m.minStartValue(new int[] {-3, 2, -3, 4, 2}));
+
+        KRadiusSubArrayAverages k = new KRadiusSubArrayAverages();
+        int[] res = k.getAverages(new int[] {7, 4, 3}, 1000);
+        for (int num: res){
+            System.out.println(num);
+        }
+
     }
 }
