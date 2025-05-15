@@ -1,5 +1,9 @@
 package com.company;
 
+import com.company.Hashing.IntegerArraySatisfyingCondition;
+import com.company.Hashing.IntersectionOfMultipleArrays;
+import com.company.Hashing.LengthofLongestSubStringWithkCharceters;
+import com.company.Hashing.TwoSum;
 import com.company.PrefixSum.KRadiusSubArrayAverages;
 import com.company.PrefixSum.MinStartValueStepByStepSum;
 import com.company.PrefixSum.QueriesOnIntegerArray;
@@ -59,11 +63,20 @@ public class Main {
 //        MinStartValueStepByStepSum m = new MinStartValueStepByStepSum();
 //        System.out.println(m.minStartValue(new int[] {-3, 2, -3, 4, 2}));
 
-        KRadiusSubArrayAverages k = new KRadiusSubArrayAverages();
-        int[] res = k.getAverages(new int[] {7, 4, 3}, 1000);
-        for (int num: res){
-            System.out.println(num);
-        }
+//        KRadiusSubArrayAverages k = new KRadiusSubArrayAverages();
+//        int[] res = k.getAverages(new int[] {7, 4, 3}, 1000);
+//        for (int num: res){
+//            System.out.println(num);
+//        }
+
+//          TwoSum t = new TwoSum();
+//          int[] res = t.twoSum(new int[] {2, 7, 11, 5}, 9);
+//          for (int num: res){
+//              System.out.println(num);
+//          }
+
+//        LengthofLongestSubStringWithkCharceters l = new LengthofLongestSubStringWithkCharceters();
+//        System.out.println(l.findLongestSubstring("eceba", 2));
 
     }
 }
