@@ -79,7 +79,7 @@ public class Main {
 //        System.out.println(l.findLongestSubstring("eceba", 2));
 
         RemoveDuplicates r = new RemoveDuplicates();
-        int[] res = r.removeDuplicate(new int[] {1, 2, 3, 4, 2, 4, 3});
+        int[] res = r.removeDuplicates(new int[] {1, 2, 3, 4, 2, 4, 3});
         for(int num: res){
             System.out.println(num);
         }

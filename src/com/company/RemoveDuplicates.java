@@ -1,5 +1,6 @@
 package com.company;
 
+import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Iterator;
 
@@ -18,5 +19,13 @@ public class RemoveDuplicates {
         }
 
         return res;
+    }
+
+    public int[] removeDuplicates(int[] arr) {
+        HashSet<Integer> set = new HashSet<>();
+        for (int j : arr) {
+            set.add(j);
+        }
+        return set.stream().mapToInt(Integer::intValue).toArray();
     }
 }
