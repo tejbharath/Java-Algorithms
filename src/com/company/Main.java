@@ -1,9 +1,6 @@
 package com.company;
 
-import com.company.Hashing.IntegerArraySatisfyingCondition;
-import com.company.Hashing.IntersectionOfMultipleArrays;
-import com.company.Hashing.LengthofLongestSubStringWithkCharceters;
-import com.company.Hashing.TwoSum;
+import com.company.Hashing.*;
 import com.company.PrefixSum.KRadiusSubArrayAverages;
 import com.company.PrefixSum.MinStartValueStepByStepSum;
 import com.company.PrefixSum.QueriesOnIntegerArray;
@@ -78,10 +75,15 @@ public class Main {
 //        LengthofLongestSubStringWithkCharceters l = new LengthofLongestSubStringWithkCharceters();
 //        System.out.println(l.findLongestSubstring("eceba", 2));
 
-        RemoveDuplicates r = new RemoveDuplicates();
-        int[] res = r.removeDuplicates(new int[] {1, 2, 3, 4, 2, 4, 3});
-        for(int num: res){
-            System.out.println(num);
-        }
+//        RemoveDuplicates r = new RemoveDuplicates();
+//        int[] res = r.removeDuplicates(new int[] {1, 2, 3, 4, 2, 4, 3});
+//        for(int num: res){
+//            System.out.println(num);
+//        }
+//        MissingNumber m = new MissingNumber();
+//        System.out.println(m.missingNumber(new int[] {3, 0, 1}));
+
+        CountingElements c = new CountingElements();
+        System.out.println(c.countElements(new int[] {1, 2, 3}));
     }
 }
